@@ -36,12 +36,11 @@ function LowBattery() {
           className='animation-div'
           animationData={selectedAnimation}
           loop={false} 
-          style={{ width: 750, height:180 }} 
+          style={{ width: 500, height:180 }} 
         />
       )}
 
       <div className="butoane">
-       
         {assetsConfig.map((asset) => (
           <button
             key={asset.name}

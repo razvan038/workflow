@@ -119,7 +119,9 @@ header nav:first-of-type {
   grid-area: nav1;
 }
 .animation-div{
-  margin: 0 auto;
+  position: absolute;
+  right: 34.5%;
+  margin-bottom: 63.5%;
   mix-blend-mode: screen;
 }
 
@@ -201,14 +203,18 @@ footer img {
 
 .butoane{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
+.butoane:after{
+  flex: 1 1 calc(33.33% - 10px); 
+  margin: 5px; 
+}
+
 .butonSelect {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   cursor: pointer;
   border: none;
   border-radius: 10px;
@@ -219,8 +225,8 @@ footer img {
 }
 
 .butonSelect:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 
 }
 
