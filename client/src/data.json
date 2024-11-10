@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Low Battery",
+      "animationPath": "./assets/AnimationAssets/LowBattery/animation.json",
+      "soundPath": "./assets/AnimationAssets/LowBattery/sound.mp3"
+    },
+    {
+        "name": "Calibrating",
+        "animationPath": "./assets/AnimationAssets/Calibrating/animation.json",
+        "soundPath": "./assets/AnimationAssets/Calibrating/sound.mp3"
+    },
+    {
+        "name": "Complete Calibrating",
+        "animationPath": "./assets/AnimationAssets/CompleteCalibrating/animation.json",
+        "soundPath": "./assets/AnimationAssets/CompleteCalibrating/sound.mp3"
+    },
+    {
+        "name": "Error Calibrating",
+        "animationPath": "./assets/AnimationAssets/ErrorCalibrating/animation.json",
+        "soundPath": "./assets/AnimationAssets/ErrorCalibrating/sound.mp3"
+    },
+    {
+        "name": "Finish Calibrating",
+        "animationPath": "./assets/AnimationAssets/FinishCalibrating/animation.json",
+        "soundPath": "./assets/AnimationAssets/FinishCalibrating/sound.mp3"
+    },
+    {
+        "name": "Power Off",
+        "animationPath": "./assets/AnimationAssets/PowerOff/animation.json",
+        "soundPath": "./assets/AnimationAssets/PowerOff/sound.mp3"
+    },
+    {
+        "name": "Power On",
+        "animationPath": "./assets/AnimationAssets/PowerOn/animation.json",
+        "soundPath": "./assets/AnimationAssets/PowerOn/sound.mp3"
+    },
+    {
+        "name": "Timer Done",
+        "animationPath": "./assets/AnimationAssets/TimerDone/animation.json",
+        "soundPath": "./assets/AnimationAssets/TimerDone/sound.mp3"
+    },
+    {
+        "name": "Volum",
+        "animationPath": "./assets/AnimationAssets/Volum/animation.json",
+        "soundPath": "./assets/AnimationAssets/Volum/sound.mp3"
+    }
+  ]
